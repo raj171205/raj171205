@@ -69,7 +69,7 @@ Explore my repositories for more projects and learning experiments.
 
 ![Contribution Snake](https://raw.githubusercontent.com/raj171205/raj171205/output/github-contribution-grid-snake.svg)
 
-![Dark Contribution Snake](https://raw.githubusercontent.com/raj171205/raj171205/output/github-contribution-grid-snake-dark.svg)
+
 ---
 
 ## 🤝 Connect With Me
