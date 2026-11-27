@@ -9,30 +9,20 @@
       <stop offset="50%" stop-color="#a78bfa"/>
       <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
-    <style>
-      .meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:3.5px;fill:#fcd34d}
-      .title{font:900 36px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
-      .desc{font:600 16px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}
-      .tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:1.5px;fill:#fef3c7}
-    </style>
   </defs>
   <rect width="760" height="240" rx="24" fill="url(#bgDsa)"/>
-  <rect x="6" y="6" width="748" height="228" rx="20" fill="none" stroke="url(#edgeDsa)" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="6" y="6" width="748" height="228" rx="20" fill="none" stroke="url(#edgeDsa)" stroke-width="2" stroke-opacity="0.85"/>
   <g transform="translate(65 68)">
     <path d="M20 88H140L125 72H35L20 88Z" fill="#f59e0b" opacity="0.9"/>
     <rect x="45" y="54" width="70" height="12" rx="6" fill="none" stroke="#a78bfa" stroke-width="3"/>
     <rect x="55" y="34" width="50" height="12" rx="6" fill="none" stroke="#22d3ee" stroke-width="3"/>
     <rect x="65" y="14" width="30" height="12" rx="6" fill="none" stroke="#f59e0b" stroke-width="3"/>
   </g>
-  <text x="260" y="68" class="meta">ALGORITHMIC WORKSHOP</text>
-  <text x="260" y="116" class="title">JAVA DSA CORE</text>
-  <text x="260" y="152" class="desc">Data structures, algorithm patterns & LeetCode problem solving.</text>
-  <g transform="translate(260 182)">
-    <rect width="95" height="28" rx="14" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.5"/>
-    <text x="47" y="19" text-anchor="middle" class="tag">JAVA</text>
-  </g>
-  <g transform="translate(370 182)">
-    <rect width="115" height="28" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.5"/>
-    <text x="57" y="19" text-anchor="middle" class="tag">LEETCODE</text>
-  </g>
+  <text x="260" y="68" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="3" fill="#fcd34d">ALGORITHMIC WORKSHOP</text>
+  <text x="260" y="116" font-family="sans-serif" font-size="34" font-weight="bold" fill="#f8fafc">JAVA DSA CORE</text>
+  <text x="260" y="152" font-family="sans-serif" font-size="16" fill="#94a3b8">Data structures, algorithm patterns & LeetCode problem solving.</text>
+  <rect x="260" y="182" width="95" height="28" rx="14" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.6"/>
+  <text x="307" y="201" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#fef3c7">JAVA</text>
+  <rect x="370" y="182" width="115" height="28" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.6"/>
+  <text x="427" y="201" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#fef3c7">LEETCODE</text>
 </svg>

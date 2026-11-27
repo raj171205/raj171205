@@ -9,15 +9,9 @@
       <stop offset="50%" stop-color="#22c55e"/>
       <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
-    <style>
-      .meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:3.5px;fill:#5eead4}
-      .title{font:900 36px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
-      .desc{font:600 16px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}
-      .tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:1.5px;fill:#ccfbf1}
-    </style>
   </defs>
   <rect width="760" height="240" rx="24" fill="url(#bgClip)"/>
-  <rect x="6" y="6" width="748" height="228" rx="20" fill="none" stroke="url(#edgeClip)" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="6" y="6" width="748" height="228" rx="20" fill="none" stroke="url(#edgeClip)" stroke-width="2" stroke-opacity="0.85"/>
   <g transform="translate(65 65)">
     <circle cx="42" cy="42" r="16" fill="none" stroke="#2dd4bf" stroke-width="3"/>
     <circle cx="108" cy="24" r="12" fill="none" stroke="#22c55e" stroke-width="3"/>
@@ -28,15 +22,11 @@
     <line x1="56" y1="37" x2="96" y2="27" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
     <line x1="54" y1="51" x2="102" y2="75" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
   </g>
-  <text x="260" y="68" class="meta">EPHEMERAL CLOUD CLIPBOARD</text>
-  <text x="260" y="116" class="title">QUICKCLIP SHARE</text>
-  <text x="260" y="152" class="desc">Zero-login cross-device transfer via Upstash Redis & QR TTL.</text>
-  <g transform="translate(260 182)">
-    <rect width="140" height="28" rx="14" fill="#0f172a" stroke="#2dd4bf" stroke-opacity="0.5"/>
-    <text x="70" y="19" text-anchor="middle" class="tag">UPSTASH REDIS</text>
-  </g>
-  <g transform="translate(415 182)">
-    <rect width="115" height="28" rx="14" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.5"/>
-    <text x="57" y="19" text-anchor="middle" class="tag">QR & TTL</text>
-  </g>
+  <text x="260" y="68" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="3" fill="#5eead4">EPHEMERAL CLOUD CLIPBOARD</text>
+  <text x="260" y="116" font-family="sans-serif" font-size="34" font-weight="bold" fill="#f8fafc">QUICKCLIP SHARE</text>
+  <text x="260" y="152" font-family="sans-serif" font-size="16" fill="#94a3b8">Zero-login cross-device transfer via Upstash Redis & QR TTL.</text>
+  <rect x="260" y="182" width="140" height="28" rx="14" fill="#0f172a" stroke="#2dd4bf" stroke-opacity="0.6"/>
+  <text x="330" y="201" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#ccfbf1">UPSTASH REDIS</text>
+  <rect x="415" y="182" width="115" height="28" rx="14" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.6"/>
+  <text x="472" y="201" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#ccfbf1">QR & TTL</text>
 </svg>

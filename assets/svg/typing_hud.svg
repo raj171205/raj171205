@@ -1,21 +1,6 @@
 <svg width="720" height="44" viewBox="0 0 720 44" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .txt {
-      font: 700 18px 'Fira Code', 'Cascadia Code', Consolas, monospace;
-      fill: #38bdf8;
-      letter-spacing: 0.5px;
-    }
-    .cursor {
-      fill: #22d3ee;
-      animation: blink 1s step-end infinite;
-    }
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-  </style>
   <rect x="10" y="4" width="700" height="36" rx="18" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
-  <text x="360" y="27" text-anchor="middle" class="txt">
-    > Full-Stack Developer • Java DSA • B.Tech CSE @ LPU
-    <tspan class="cursor">_</tspan>
+  <text x="360" y="27" text-anchor="middle" font-family="monospace" font-size="17" font-weight="bold" fill="#38bdf8">
+    > Full-Stack Developer • Java DSA • B.Tech CSE @ LPU _
   </text>
 </svg>
