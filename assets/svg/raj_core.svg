@@ -4,17 +4,20 @@
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="100%" stop-color="#0b1220"/>
     </linearGradient>
+
     <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#334155"/>
       <stop offset="48%" stop-color="#22d3ee"/>
       <stop offset="72%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#334155"/>
     </linearGradient>
+
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
+
     <linearGradient id="lineFlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
       <stop offset="22%" stop-color="#22d3ee" stop-opacity="0.85"/>
@@ -23,16 +26,19 @@
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.24"/>
       <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
+
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
       <path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1">
         <animateTransform attributeName="transform" type="translate" values="0 0;34 34;0 0" dur="26s" repeatCount="indefinite"/>
       </path>
     </pattern>
+
     <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b">
         <animate attributeName="stdDeviation" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
@@ -42,9 +48,11 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <filter id="panelShadow" x="-15%" y="-20%" width="130%" height="145%">
       <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
     </filter>
+
     <style>
       .title { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #e2e8f0; letter-spacing: 2px; }
       .subtitle { font: 500 12px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; letter-spacing: 1px; }
@@ -57,13 +65,16 @@
       .accent { stroke: url(#titleGrad); stroke-width: 3; fill: none; stroke-linecap: round; }
     </style>
   </defs>
+
   <rect x="0" y="0" width="1200" height="430" fill="url(#bg)"/>
   <rect x="0" y="0" width="1200" height="430" fill="url(#grid)"/>
   <circle cx="600" cy="74" r="140" fill="url(#coreGlow)">
     <animate attributeName="r" values="120;155;120" dur="7s" repeatCount="indefinite"/>
   </circle>
+
   <line x1="70" y1="52" x2="455" y2="52" class="innerLine"/>
   <line x1="745" y1="52" x2="1130" y2="52" class="innerLine"/>
+
   <g transform="translate(600,52)" filter="url(#glowCyan)">
     <circle r="25" fill="none" stroke="#1e293b" stroke-width="2"/>
     <circle r="18" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="22 10">
@@ -77,13 +88,16 @@
     <line x1="0" y1="-32" x2="0" y2="-22" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
     <line x1="0" y1="22" x2="0" y2="32" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
   </g>
+
   <text x="600" y="103" text-anchor="middle" class="title">SYSTEM CORE</text>
   <text x="600" y="126" text-anchor="middle" class="subtitle">runtime capabilities • cognitive stack • engineering doctrine</text>
+
   <g filter="url(#panelShadow)">
     <rect x="60" y="160" width="340" height="220" class="frame"/>
     <rect x="430" y="160" width="340" height="220" class="frame"/>
     <rect x="800" y="160" width="340" height="220" class="frame"/>
   </g>
+
   <path d="M85 178 H180" class="accent" stroke-dasharray="95 24">
     <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="7s" repeatCount="indefinite"/>
   </path>
@@ -93,32 +107,49 @@
   <path d="M825 178 H920" class="accent" stroke-dasharray="95 24">
     <animate attributeName="stroke-dashoffset" from="0" to="-119" dur="8s" repeatCount="indefinite"/>
   </path>
+
+  <!-- panel 1 -->
   <text x="95" y="210" class="section">BUILD SYSTEMS</text>
   <text x="95" y="233" class="sectionSub">Full-Stack • Architecture • Cloud</text>
+
   <circle cx="102" cy="267" r="3.5" class="bullet"/>
-  <text x="118" y="272" class="item">Next.js & React Ecosystem</text>
+  <text x="118" y="272" class="item">Next.js &amp; React Ecosystem</text>
+
   <circle cx="102" cy="297" r="3.5" class="bullet"/>
-  <text x="118" y="302" class="item">Node.js, Express & REST APIs</text>
+  <text x="118" y="302" class="item">Node.js, Express &amp; REST APIs</text>
+
   <circle cx="102" cy="327" r="3.5" class="bullet"/>
-  <text x="118" y="332" class="item">PostgreSQL, pgvector & MongoDB</text>
+  <text x="118" y="332" class="item">PostgreSQL, pgvector &amp; MongoDB</text>
+
   <circle cx="102" cy="357" r="3.5" class="bullet"/>
-  <text x="118" y="362" class="item">Docker & Scalable Deployments</text>
+  <text x="118" y="362" class="item">Docker &amp; Scalable Deployments</text>
+
+  <!-- panel 2 -->
   <text x="465" y="210" class="section">PROBLEM SOLVING</text>
   <text x="465" y="233" class="sectionSub">Java DSA • Algorithmic Rigor</text>
+
   <circle cx="472" cy="267" r="3.5" class="bullet"/>
-  <text x="488" y="272" class="item">Java Collections & OOP Mastery</text>
+  <text x="488" y="272" class="item">Java Collections &amp; OOP Mastery</text>
+
   <circle cx="472" cy="297" r="3.5" class="bullet"/>
-  <text x="488" y="302" class="item">Trees, Graphs & Dynamic Programming</text>
+  <text x="488" y="302" class="item">Trees, Graphs &amp; Dynamic Programming</text>
+
   <circle cx="472" cy="327" r="3.5" class="bullet"/>
-  <text x="488" y="332" class="item">LeetCode & GFG Practice</text>
+  <text x="488" y="332" class="item">LeetCode &amp; GFG Practice</text>
+
   <circle cx="472" cy="357" r="3.5" class="bullet"/>
-  <text x="488" y="362" class="item">Time & Space Complexity Optimization</text>
+  <text x="488" y="362" class="item">Time &amp; Space Complexity Optimization</text>
+
+  <!-- panel 3 -->
   <text x="835" y="210" class="section">DOCTRINE</text>
   <text x="835" y="233" class="sectionSub">Engineering Principles</text>
+
   <circle cx="842" cy="267" r="3.5" class="bullet"/>
   <text x="858" y="272" class="item">Clean code precedes clever code</text>
+
   <circle cx="842" cy="307" r="3.5" class="bullet"/>
   <text x="858" y="312" class="item">Design for scale from day one</text>
+
   <circle cx="842" cy="347" r="3.5" class="bullet"/>
-  <text x="858" y="352" class="item">Continuous learning & relentless execution</text>
+  <text x="858" y="352" class="item">Continuous learning &amp; relentless execution</text>
 </svg>
