@@ -1,25 +1,42 @@
-<svg width="760" height="250" viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="240" viewBox="0 0 760 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="250"><stop offset="0%" stop-color="#020617"/><stop offset="100%" stop-color="#052e2b"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="45%" stop-color="#22c55e"/><stop offset="75%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#3b82f6"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="15s" repeatCount="indefinite"/></linearGradient>
-    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>.meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#5eead4}.title{font:900 38px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}.desc{font:600 17px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}.tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#ccfbf1}</style>
+    <linearGradient id="bgClip" x1="0" y1="0" x2="760" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#052e2b"/>
+    </linearGradient>
+    <linearGradient id="edgeClip" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <style>
+      .meta{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:3.5px;fill:#5eead4}
+      .title{font:900 36px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
+      .desc{font:600 16px 'Segoe UI',Arial,sans-serif;fill:#94a3b8}
+      .tag{font:800 12px 'Segoe UI',Arial,sans-serif;letter-spacing:1.5px;fill:#ccfbf1}
+    </style>
   </defs>
-  <rect width="760" height="250" rx="24" fill="url(#bg)"/>
-  <rect x="6" y="6" width="748" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="340 86" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="0" to="-426" dur="18s" repeatCount="indefinite"/></rect>
-  <g transform="translate(78 68)" filter="url(#glow)">
+  <rect width="760" height="240" rx="24" fill="url(#bgClip)"/>
+  <rect x="6" y="6" width="748" height="228" rx="20" fill="none" stroke="url(#edgeClip)" stroke-width="2" stroke-opacity="0.8"/>
+  <g transform="translate(65 65)">
     <circle cx="42" cy="42" r="16" fill="none" stroke="#2dd4bf" stroke-width="3"/>
-    <circle cx="104" cy="26" r="12" fill="none" stroke="#22c55e" stroke-width="3"/>
-    <circle cx="116" cy="82" r="18" fill="none" stroke="#67e8f9" stroke-width="3"/>
+    <circle cx="108" cy="24" r="12" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <circle cx="118" cy="82" r="18" fill="none" stroke="#67e8f9" stroke-width="3"/>
     <circle cx="42" cy="42" r="6" fill="#2dd4bf"/>
-    <circle cx="104" cy="26" r="4" fill="#22c55e"/>
-    <circle cx="116" cy="82" r="7" fill="#67e8f9"/>
-    <line x1="56" y1="37" x2="92" y2="29" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
-    <line x1="54" y1="51" x2="100" y2="75" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <circle cx="108" cy="24" r="5" fill="#22c55e"/>
+    <circle cx="118" cy="82" r="7" fill="#67e8f9"/>
+    <line x1="56" y1="37" x2="96" y2="27" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <line x1="54" y1="51" x2="102" y2="75" stroke="#5eead4" stroke-width="2.5" stroke-dasharray="6 4"/>
   </g>
-  <text x="280" y="74" class="meta">CLOUD DATA INTERCHANGE</text>
-  <text x="280" y="124" class="title">QUICKCLIP SHARE</text>
-  <text x="280" y="160" class="desc">Instant cross-device clipboard sync via temporary 6-digit keys.</text>
-  <g transform="translate(280 190)"><rect width="115" height="26" rx="13" fill="#0f172a" stroke="#2dd4bf" stroke-opacity=".45"/><text x="57" y="18" text-anchor="middle" class="tag">REALTIME</text></g>
-  <g transform="translate(410 190)"><rect width="100" height="26" rx="13" fill="#0f172a" stroke="#22c55e" stroke-opacity=".45"/><text x="50" y="18" text-anchor="middle" class="tag">P2P CLIP</text></g>
+  <text x="260" y="68" class="meta">EPHEMERAL CLOUD CLIPBOARD</text>
+  <text x="260" y="116" class="title">QUICKCLIP SHARE</text>
+  <text x="260" y="152" class="desc">Zero-login cross-device transfer via Upstash Redis & QR TTL.</text>
+  <g transform="translate(260 182)">
+    <rect width="140" height="28" rx="14" fill="#0f172a" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <text x="70" y="19" text-anchor="middle" class="tag">UPSTASH REDIS</text>
+  </g>
+  <g transform="translate(415 182)">
+    <rect width="115" height="28" rx="14" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.5"/>
+    <text x="57" y="19" text-anchor="middle" class="tag">QR & TTL</text>
+  </g>
 </svg>

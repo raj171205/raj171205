@@ -1,14 +1,14 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:6366f1&height=210§ion=header&text=Raj%20Patel&fontSize=54&fontColor=f8fafc&fontAlignY=38&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Java%20DSA%20%7C%20B.Tech%20CSE%20%40%20LPU&descAlignY=58&descAlign=50" width="100%" alt="Raj Patel Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:6366f1&height=230§ion=header&text=Raj%20Patel&fontSize=48&fontColor=f8fafc&fontAlignY=29&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Java%20DSA%20%7C%20B.Tech%20CSE%20%40%20LPU&descSize=17&descAlignY=60&descAlign=50" width="100%" alt="Raj Patel Header" />
 
-  <!-- Animated Typing HUD Line -->
+  <!-- Local HUD Status Bar (100% Reliable) -->
   <a href="https://raj-patel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8¢er=true&vCenter=true&width=680&height=42&lines=%F0%9F%9A%80+Full-Stack+Web+Developer+(React%2C+Next.js%2C+Node.js);%E2%98%95+Java+DSA+%26+Algorithmic+Problem+Solver;%F0%9F%8E%93+B.Tech+CSE+Undergrad+%40+Lovely+Professional+University;%E2%98%81%EF%B8%8F+Oracle+OCI+Certified+AI+Foundations+Associate" alt="Typing SVG" />
+    <img src="./assets/svg/typing_hud.svg" width="76%" alt="Status HUD" />
   </a>
 
-  <br/>
+  <br/><br/>
 
   <!-- Verified Profile & Telemetry Badges -->
   <p align="center">
@@ -51,28 +51,38 @@
 
   <!-- Primary System Portal -->
   <a href="https://raj-patel.app">
-    <img width="84%" src="./assets/svg/portal_main.svg" alt="Raj Patel Main System" />
+    <img width="88%" src="./assets/svg/portal_main.svg" alt="Raj Patel Main System" />
   </a>
 
   <br/><br/>
 
-  <!-- Interactive Project HUD Cards -->
+  <!-- 2x2 Interactive Project HUD Grid (Clean, Large & Readable) -->
   <p align="center">
     <a href="https://github.com/raj171205/RTI_portal">
-      <img width="32%" src="./assets/svg/card_rti_portal.svg" alt="RTI Portal" />
+      <img width="48%" src="./assets/svg/card_rti_portal.svg" alt="RTI Portal" />
     </a>
+     
     <a href="https://github.com/raj171205/instant-clipboard">
-      <img width="32%" src="./assets/svg/card_quickclip.svg" alt="QuickClip Share" />
-    </a>
-    <a href="https://github.com/raj171205/JavaDSA">
-      <img width="32%" src="./assets/svg/card_javadsa.svg" alt="Java DSA Core" />
+      <img width="48%" src="./assets/svg/card_quickclip.svg" alt="QuickClip Share" />
     </a>
   </p>
+
+  <p align="center">
+    <a href="https://github.com/raj171205?tab=repositories">
+      <img width="48%" src="./assets/svg/card_mediroute.svg" alt="MediRoute AI" />
+    </a>
+     
+    <a href="https://github.com/raj171205/JavaDSA">
+      <img width="48%" src="./assets/svg/card_javadsa.svg" alt="Java DSA Core" />
+    </a>
+  </p>
+
+  <br/>
 
   <!-- Explore Repositories Button -->
   <p align="center">
     <a href="https://github.com/raj171205?tab=repositories">
-      <img width="36%" src="./assets/svg/explore_repos_button.svg" alt="Explore Repositories" />
+      <img width="40%" src="./assets/svg/explore_repos_button.svg" alt="Explore Repositories" />
     </a>
   </p>
 
